@@ -4,7 +4,6 @@ export const screenWidth = Dimensions.get('window').width;
 export const screenHeight = Dimensions.get('window').height;
 
 export var DesignHeight = 812;
-// export var DesignHeight = 667;
 export var DesignWidth = 375;
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');

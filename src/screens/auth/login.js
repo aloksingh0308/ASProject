@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { SafeAreaView, TextInput, TouchableOpacity, Text, View, StyleSheet } from 'react-native'
 import auth from '@react-native-firebase/auth';
 import { useSelector, useDispatch } from 'react-redux'
-import { set_auth, set_userInfo } from '../redux/actions';
-import { vh, vw, normalize } from '../redux/dimensions';
+import { set_auth, set_userInfo } from '../../redux/actions';
+import { vh, vw, normalize } from '../../utils/dimensions';
 export default function Login({ navigation }) {
     const state = useSelector(state => state)
     const [email, setEmail] = useState("")
